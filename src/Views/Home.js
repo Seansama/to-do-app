@@ -1,5 +1,9 @@
 import ToDo from "../Components/ToDo";
-import ToDoList from "../Components/toDoList";
-function Home(){
 
+function Home(){
+    return(
+        <ToDo/>
+        )
 }
+
+export default Home
