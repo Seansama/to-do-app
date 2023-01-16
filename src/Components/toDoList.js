@@ -1,9 +1,12 @@
-function ToDoList() {
+import React, {useState} from "react";
+function ToDoList(props) {
 return(
     <div>
-        <h2>Learn about react</h2>
-        <p>Lorem ipsum</p>
+        <h2>{props.todos.title}</h2>
+        <p>{props.todos.Description}</p>
     </div>
 )
 }
 export default ToDoList;
+
+//When creating a component you should be aware of the data it requires
