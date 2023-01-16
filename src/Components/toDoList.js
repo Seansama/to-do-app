@@ -1,16 +1,9 @@
 import React, {useState} from "react";
-function ToDoList() {
-    const [toDo, setTodo] = useState({
-        "title": "Learn React",
-        "Description": "Lorem ipsum"
-    })
-    console.log(toDo)
-
-
+function ToDoList(props) {
 return(
     <div>
-        <h2>{toDo.title}</h2>
-        <p>{toDo.Description}</p>
+        <h2>{props.todos.title}</h2>
+        <p>{props.todos.Description}</p>
     </div>
 )
 }
