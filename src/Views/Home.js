@@ -20,16 +20,27 @@ function Home(){
 //handle input change
     const handleChange = (e) => {
       e.preventDefault();
+      setNewTodo(e.target.value)
+
     }
     //function to add anew toDo
-       const AddNewToDo = () => {
-
+       const handleSubmit = (e) => {
+e.preventDefault()
+           const newTask = {
+               "id": Math.floor(Math.random()*10),
+               "title": newTodo,
+               "description": "Buy groceries and Fruits",
+               "status": false
+           }
+           console.log(newTask)
+           setTodos([...todos,newTask])
        }
     return(
         <div>
-            <form>
-                <input type="text" placeholder="Enter new Todo"/>
-                    <button type="submit">Submit todo</button>
+            <h1>{newTodo}</h1>
+            <form onSubmit={handleSubmit}>
+                <input type="text" placeholder="Enter new Todo" onChange={handleChange} name="newTodo" value={newTodo}/>
+                    <button type="submit" >Submit todo</button>
             </form>
             <ToDo todos={todos}/>
         </div>
