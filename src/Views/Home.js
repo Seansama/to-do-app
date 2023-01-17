@@ -6,15 +6,31 @@ function Home(){
     const [todos, setTodos] = useState([{
         "id": 1,
         "title": "learn React",
-        "Description": "Intro to React"
+        "description": "Intro to React",
+        "status": false
     },
         {
             "id": 2,
             "title": "Go to the Market",
-            "Description": "Buy groceries and Fruits"
+            "description": "Buy groceries and Fruits",
+            "status": false
         }])
+    //new todo state
+    const [newTodo, setNewTodo] = useState("")
+//handle input change
+    const handleChange = (e) => {
+      e.preventDefault();
+    }
+    //function to add anew toDo
+       const AddNewToDo = () => {
+
+       }
     return(
         <div>
+            <form>
+                <input type="text" placeholder="Enter new Todo"/>
+                    <button type="submit">Submit todo</button>
+            </form>
             <ToDo todos={todos}/>
         </div>
         )
