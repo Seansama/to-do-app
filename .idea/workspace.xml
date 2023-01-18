@@ -6,15 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7d9ddfec-0b4d-4dd3-b470-1e63d4941309" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/0.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/1.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/2.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/3.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/4.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/default-development/index.pack.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ToDo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ToDo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/toDoList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/toDoList.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Views/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Views/Home.js" afterDir="false" />
     </list>
@@ -68,7 +59,8 @@
       <workItem from="1673353086176" duration="858000" />
       <workItem from="1673415283519" duration="3471000" />
       <workItem from="1673846876833" duration="3002000" />
-      <workItem from="1673859050553" duration="1086000" />
+      <workItem from="1673859050553" duration="1734000" />
+      <workItem from="1673939689419" duration="3991000" />
     </task>
     <servers />
   </component>

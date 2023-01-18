@@ -3,7 +3,7 @@ function ToDoList(props) {
 return(
     <div>
         <h2>{props.todos.title}</h2>
-        <p>{props.todos.Description}</p>
+        <p>{props.todos.description}</p>
     </div>
 )
 }
